@@ -7,21 +7,43 @@
   height: 60px;
   background-color: #0f1111;
   color:white;
+  display: flex;
+  align-items: center;
 }
 
 .nav-logo{
   height: 50px;
-  width: 130px;
+  width: 100px;
+  margin-left: 5px;
+  
 }
 .logo{
   background-image: url("png-transparent-amazon-dark-hd-logo-thumbnail.png");
   background-size: cover;
   height: 50px;
   width: 100px;
+  
 }
 .border{
   border: 1.5px solid transparent;
+
 }
-.border :hover{
-  border: 1.5 solid white;
+.border:hover{
+  border: 2px solid white;
 }
+
+/* second box */
+.add-first{
+  color: #cccccc;
+  font-size: 0.85rem;
+  margin-left: 15px;
+}
+.add-second{
+  font-size: 1rem;
+  margin-left: 3px;
+}
+.add-icon{
+  display: flex;
+  align-items: center;
+}
+
